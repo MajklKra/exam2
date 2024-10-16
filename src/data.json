@@ -1,0 +1,29 @@
+{
+  "programmers": [
+    {
+      "id": 1,
+      "name": "Michal Kraninger",
+      "position": "Junior"
+    },
+    {
+      "id": 2,
+      "name": "Jan Fisher",
+      "position": "Senior"
+    },
+    {
+      "id": 3,
+      "name": "Jan Klose",
+      "position": "Senior"
+    },
+    {
+      "id": 4,
+      "name": "Jan Krupicka",
+      "position": "Senior"
+    },
+    {
+      "id": 5,
+      "name": "Vera Hellebrand",
+      "position": "Senior"
+    }
+  ]
+}

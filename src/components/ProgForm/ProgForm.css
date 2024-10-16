@@ -1,0 +1,170 @@
+.prog-form {
+  /* display: flex;
+  width: 500px;
+  margin: 50px 0;
+  justify-content: space-between;
+  align-items: center; */
+
+  display: flex;
+  justify-content: center;
+ /*  align-items: center;  */
+  align-items: center;
+  margin-top: 40px;
+  /* height: 100vh; /* Zajistí, že rodič má celou výšku viewportu */
+  color: #318CE7;
+}
+
+.prog-form > button{
+  
+  font-size: large;
+
+}
+
+.prog-form > input::placeholder
+{
+  font-style: italic;
+  color: #318CE7;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.prog-form > label{
+  margin-bottom: 10px;
+}
+
+.prog-form > input{
+  
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 301px)and (max-width: 400px) 
+{
+  .prog-form {
+  
+    flex-direction: column;
+
+    justify-content: flex-start; /* Zarovná položky nalevo */
+    align-items: flex-start; /* Zarovná položky nahoru */
+
+  }
+
+  .prog-form > input{
+  
+    margin-bottom: 1rem;
+    font-size: large;
+  }
+
+  .prog-form > button{
+    width: 50%;
+  }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 575px) 
+{
+  .prog-form {
+  
+    flex-direction: column;
+
+    justify-content: flex-start; /* Zarovná položky nalevo */
+    align-items: flex-start; /* Zarovná položky nahoru */
+
+  }
+
+  .prog-form > input{
+  
+    margin-bottom: 1rem;
+    font-size: large;
+  }
+
+  .prog-form > button{
+    width: 40%;
+  }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) 
+{
+
+  .prog-form {
+  
+    justify-content: flex-start; /* Zarovná položky nalevo */
+    align-items: flex-start; /* Zarovná položky nahoru */
+
+  }
+
+  .prog-form > input{
+  
+    margin-right: 1rem;
+    font-size: larger;
+  }
+
+  .prog-form > button{
+    width: 30%;
+  }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) 
+{
+  .prog-form {
+  
+    justify-content: flex-start; /* Zarovná položky nalevo */
+    align-items: flex-start; /* Zarovná položky nahoru */
+
+  }
+
+  .prog-form > input{
+  
+    margin-right: 1rem;
+    font-size: larger;
+  }
+
+  .prog-form > button{
+    width: 20%;
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) 
+{
+  .prog-form {
+  
+    justify-content: flex-start; /* Zarovná položky nalevo */
+    align-items: flex-start; /* Zarovná položky nahoru */
+
+  }
+
+  .prog-form > input{
+  
+    margin-right: 1rem;
+    font-size: larger;
+  }
+
+  .prog-form > button{
+    width: 20%;
+  }
+
+}
+
+@media screen and (min-width: 1200px)
+{
+  .prog-form {
+  
+    justify-content: flex-start; /* Zarovná položky nalevo */
+    align-items: flex-start; /* Zarovná položky nahoru */
+
+  }
+
+  .prog-form > input{
+  
+    margin-right: 1rem;
+    font-size: larger;
+  }
+
+  .prog-form > button{
+    width: 20%;
+  }
+
+}

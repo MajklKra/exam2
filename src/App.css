@@ -1,0 +1,180 @@
+h1,
+h2,
+h3 {
+  color: blue;
+  font-weight: bolder;
+  color: #318CE7
+}
+
+h2{
+  text-align: center;
+}
+
+#h1 {
+  margin-top: 100px;
+  color: #318CE7;
+  text-align: center;
+}
+
+ #d1 {
+  margin: 20px;
+  padding: 50px;
+  border: 2px solid #808080;
+  border-radius: 15px;
+  background-color: #f8f8f8; 
+
+
+  margin: 20px; 
+  padding-top: 20px ;
+  padding-bottom: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* border: 2px solid #808080; */
+  border: 2px solid #5072A7;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  /* width: 100%; */ 
+  box-sizing: border-box; /* Zajistí, že padding a border neovlivní šířku */
+
+}
+
+#d2 {
+  /* margin: 20px; */
+  /* padding: 50px; */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 2px solid #808080;
+  border-radius: 15px;
+
+  margin-top: 60px;
+  border: 2px solid #5072A7;
+
+  background-color: #f8f8f8;
+
+  margin-bottom: 20px;
+
+  /* text-align: center; */
+
+} 
+
+#h2 {
+  /* color: gray; */
+  color: #318CE7;
+}
+
+body{
+  background-color: #e5edff;
+}
+
+#h3 {
+  margin-top: 30px;
+  padding-bottom: 0px;
+}
+
+#h4 {
+  margin-top: 5px;
+}
+
+
+
+@media screen and (max-width: 300px) 
+{
+  body{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 301px)and (max-width: 400px) 
+{
+   #d1{
+
+    width: 300px; 
+    /* background-color: brown; */
+   }
+
+   #d2{
+    /* width: 100%; */
+    width: 300px;
+   }
+
+   #h3 {
+    text-align: left;
+  }
+  
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 575px) 
+{
+  #d1{
+    width: 80%;
+    /* background-color: brown; */
+   }
+
+   #d2{
+    /* width: 100%; */
+    width: 400px;
+   }
+
+   #h3 {
+    text-align: left;
+  }
+  
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) 
+{
+  #d1{
+    width: 90%;
+   }
+
+   #d2{
+   /*  width: 100%; */
+      width: 500px;
+   }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) 
+{
+  #d1{
+    width: 80%;
+   }
+
+   #d2{
+    /* width: 100%; */
+    width: 750px;
+    text-align: center;
+   }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) 
+{
+  #d1{
+    width: 70%;
+   }
+
+   #d2{
+    /* width: 90%; */
+    text-align: center;
+    width: 900px;
+   }
+
+}
+
+@media screen and (min-width: 1200px)
+{
+  #d1{
+    width: 50%;
+   }
+
+   #d2{
+    /* width: 75%; */
+    text-align: center;
+    width: 1000px;
+   }
+
+}

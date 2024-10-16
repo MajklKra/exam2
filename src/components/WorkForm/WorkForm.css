@@ -1,0 +1,175 @@
+.work-form {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  margin: 50px 0;
+  padding-top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.program-work > label{
+
+  margin-right: 15px;
+  color: #318CE7;
+}
+
+.program-work > input{
+
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+
+  color: #318CE7;
+  border: 1px solid #318CE7;
+
+}
+
+.program-work > button{
+
+  border-radius: 5px;
+  
+}
+
+
+@media screen and (min-width: 301px)and (max-width: 400px) 
+{
+  .program-work{
+
+    flex-direction: column;
+  
+  }
+
+  .program-work > label{
+
+    font-size: large;
+  }
+
+  .program-work > input{
+
+    width: 100%;
+    font-size: large;
+  
+  }
+
+  .program-work > button{
+    font-size: large;
+  }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 575px) 
+{
+
+  .program-work > label{
+
+    font-size: large;
+  }
+
+  .program-work{
+
+    flex-direction: column;
+  
+  }
+
+  .program-work > input{
+
+    width: 100%;
+    font-size: large;
+  
+  }
+
+  .program-work > button{
+    font-size: x-large;
+  }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) 
+{
+
+  .program-work > label{
+
+    font-size: large;
+  }
+
+  .program-work{
+
+    flex-direction: column;
+  
+  }
+
+  .program-work > input{
+
+    width: 100%;
+    font-size: large;
+  
+  }
+
+  .program-work > button{
+    font-size: x-large;
+  }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) 
+{
+  .program-work > label{
+
+    font-size: small;
+    margin-right: 5px;
+  }
+
+  .program-work > input{
+
+    font-size: small;
+    margin-right: 5px;
+  }
+
+  .program-work > button{
+    font-size: large;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) 
+{
+  .program-work > label{
+
+    font-size: large;
+    margin-right: 10px;
+  }
+
+  .program-work > input{
+
+    font-size: large;
+    margin-right: 10px;
+  
+  }
+
+  .program-work > button{
+    font-size: large;
+  }
+
+}
+
+@media screen and (min-width: 1200px)
+{
+  .program-work > label{
+
+    font-size: large;
+    margin-right: 15px;
+  }
+
+  .program-work > input{
+
+    font-size: large;
+    margin-right: 15px;
+  
+  }
+
+  .program-work > button{
+    font-size: x-large;
+  }
+
+}
